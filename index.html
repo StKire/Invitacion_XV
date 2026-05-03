@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis XV Años</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;600&family=Great+Vibes&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content-wrapper">
+
+        <div class="crown-icon">
+            <i class="fa-solid fa-crown"></i>
+        </div>
+
+        <p class="parents-text" id="parents-text"></p>
+
+        <h1 class="quinceanera-title" id="event-type"></h1>
+
+        <p class="daughters-text" id="relation-text"></p>
+
+        <h2 class="names-title" id="quinceanera-name"></h2>
+
+        <!-- Sección de Fecha y Hora -->
+        <div class="datetime-container">
+            <div class="date-side">
+                <span class="day" id="event-day"></span>
+                <span class="month" id="event-month"></span>
+            </div>
+            <div class="date-number" id="event-date">
+            </div>
+            <div class="time-side">
+                <span class="time-label">Hora:</span>
+                <span class="time-value" id="event-time"></span>
+            </div>
+        </div>
+
+        <div class="divider">
+            <i class="fa-solid fa-diamond"></i>
+        </div>
+
+        <p class="address-text" id="event-address"></p>
+
+        <!-- Íconos de Información -->
+        <div class="icons-container">
+            <div class="icon-item">
+                <i class="fa-solid fa-envelope-open-text"></i>
+                <p>Lluvia de<br>sobres</p>
+            </div>
+            <div class="icon-item">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <p>Confirma<br>asistencia</p>
+            </div>
+            <div class="icon-item">
+                <i class="fa-solid fa-user-tie"></i>
+                <p>Vestimenta<br>Formal</p>
+            </div>
+        </div>
+
+        <!-- Contador -->
+        <div class="countdown-section">
+            <h2 class="section-title">Faltan</h2>
+            <div class="contador" id="contador">
+                <!-- Se llenará con JS -->
+            </div>
+        </div>
+
+        <!-- Ubicación Interactiva -->
+        <div class="location-section">
+            <h2 class="section-title">Ubicación</h2>
+            <p style="color: var(--color-grey);">Salones FASAFRE</p>
+            <p class="address-text" style="margin-bottom: 20px;">Nos encantaría contar con tu presencia en este día tan
+                especial.</p>
+            <div class="map-container">
+                <iframe id="event-map" src="" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
+        <h3 class="footer-greeting">Te esperamos</h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
