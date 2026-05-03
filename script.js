@@ -4,7 +4,7 @@ const infoInvitacion = {
     padres: "Tienen el honor de invitarlos a la",
     tipoEvento: "Quinceañera",
     relacion: "De su hija",
-    nombre: "Rubi Telles",
+    nombre: "Rubi Tellez",
     diaSemana: "Sábado",
     mes: "Julio",
     diaNumero: "04",
